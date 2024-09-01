@@ -1,6 +1,8 @@
-----------------------------------------
-
 # SkyUID Generator
+
+**DOWNLOAD: [SkyUID Generator](https://github.com/skylandersNFC/SkyUID-Generator/releases/tag/SkyUID-Generator)**
+
+----------------------------------------
 
 *Disclaimer: **This script won't work for Imaginators dumps, only from SSA to SSC.**
 
