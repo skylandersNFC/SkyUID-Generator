@@ -23,9 +23,9 @@ It's helpful if you have NFC UID locked cards (Sector 0, Block 0 Read-Only) and 
 
 **How to run it:**
 
-1. Download the **Windows** version from "**![Releases](https://github.com/skylandersNFC/SkyUID-Generator-GUI/releases/)**" (**SkyUID-Generator-GUI-Windows.zip**)
+1. Download the **Windows** version from "**![Releases](https://github.com/skylandersNFC/SkyUID-Generator/releases/tag/SkyUID-Generator)**" (**SkyUID-Generator.zip**)
 
-2. Extract it somewhere and run the "**SkyUID-Generator-GUI-WIN.exe**"
+2. Extract it somewhere and run the "**SkyUID-Generator.exe**"
 ![SkyUID-Generator-GUI-Windows.exe](https://i.ibb.co/m5z5dXn/image.png)
 
 3. Now you should have the **GUI** running. It will look something like this
