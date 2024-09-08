@@ -39,7 +39,7 @@ It's helpful if you have NFC UID locked cards (Sector 0, Block 0 Read-Only) and 
 5. You can get a **UID** of a card by just placing it on the reader and pressing "**READ TAG**". That's the first thing it will tell you. **Remove any spaces** from the UID so it's "**EF844A3E**" (example)
 ![00. How to get UID with MWT](https://github.com/skylandersNFC/SkyUID-Generator-GUI/blob/main/img/00.%20How%20to%20get%20UID%20with%20MWT.jpg)
 
-6. On the second field you need to **pick a Skylander from the dropdown menu**. The skylanders listed in the dropdown are from the "[Skylanders Ultimate NFC Pack](https://docs.google.com/document/d/1M3CXm2UcXLo1kuhYmAAtitfPJUJoyL47Ey95BYIt-Z0/edit?usp=sharing)". Since they are sorted into folders, you **need to go deep enough** until you have **selected a single Skylander** dump and see a result in the "**Output File**" field.
+6. On the second field you need to **pick a Skylander from the dropdown menu**. The skylanders listed in the dropdown are from the "[Skylanders Ultimate NFC Pack](https://skylandersnfc.github.io/Skylanders-Ultimate-NFC-Pack/)". Since they are sorted into folders, you **need to go deep enough** until you have **selected a single Skylander** dump and see a result in the "**Output File**" field.
 ![02. UID and Dumps Dropdown](https://raw.githubusercontent.com/t3hsuppli3r/SkyUID-Generator-GUI/main/img/02.%20UID%20and%20Dumps%20Dropdown.jpg)
 
 7. After **generating a UID** specific dump file, you should see this 
