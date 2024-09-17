@@ -6,15 +6,32 @@
 
 *Disclaimer: **This script won't work for Imaginators dumps, only from SSA to SSC.**
 
-_Imaginator dumps need to be an exact copy of the original dumps, meaning you need to copy all 64 blocks from the original dump to your card.
-If you are here, you probably have UID-locked cards, which means you can write 63 out of 64 blocks but not the UID block.
-That's why you are using the SkyUID Generator to regenerate those 63 blocks from the original dump to align with your card's UID.
-However, with Imaginators, we cannot regenerate anything since those dumps have an extra protection layer in the form of four additional signature blocks.
-In order for these to work, you need to write all 64 blocks exactly as they are. You cannot adjust or generate anything.
-Since you can only write 63 blocks with your UID-locked cards, you will have a 98% written dump, but never 100%.
-And the Imaginators game won't accept 98%._
+> Imaginator dumps must be an exact copy of the original, meaning all 64 blocks need to be transferred from the original dump to your card. If you're reading this, you likely have UID-locked cards, which allow you to write 63 out of the 64 blocks, but not the UID block.
+> 
+> That's why you’re using the SkyUID Generator to recreate those 63 blocks from the original dump so they align with your card's UID. However, with Imaginators, this method won’t work because the dumps have an additional layer of protection—four extra signature blocks.
+>
+> For these Imaginators dumps to function, all 64 blocks must be written exactly as they are, with no adjustments or regenerations. Since your UID-locked cards only let you write 63 blocks, you’ll end up with a 98% complete dump, but never 100%. The Imaginators game requires a full 100% to work.
 
 ----------------------------------------
+
+*Yet Another Disclaimer: **SkyUID works with 99% of Mifare S50 1k UID-locked tags, but not all.**
+
+> 99% of tags will have manufacturer data in the form of **`62 63 64 65 66 67 68 69`**.
+> 
+> This data decodes to '**bcdefghi**,' which is standard. It's a special piece of data that the chip factory places on tags that is read-only for UID-locked cards.
+>
+> However, some tags have manufacturer data in the form of **`62 63 9D 0D 73 D7 68 69`**.
+> 
+> For these tags, SkyUID will **NOT** work, as it is designed to function only with manufacturer data in the form of **`62 63 64 65 66 67 68 69`**.
+> 
+> In such cases, you will need to use either **[TheSkyLib](https://github.com/DevZillion/TheSkyLib)** software or its online version, **[TheSkyLib-Online](https://skylandersnfc.github.io/TheSkyLib-Online/)**.
+>
+> Instead of just the **UID** of a card, these tools will require a **complete dump of an empty card**.
+>
+> This way they can extract the different manufacturer data and adjust it to the correct Skylanders data.
+
+----------------------------------------
+
 **What is this:**
 
 This is a python GUI app that can create Skylander dumps, adjusted for a specific card UID.
