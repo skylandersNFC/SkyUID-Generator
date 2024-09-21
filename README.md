@@ -24,7 +24,7 @@
 > 
 > For these tags, SkyUID will **NOT** work, as it is designed to function only with manufacturer data in the form of **`62 63 64 65 66 67 68 69`**.
 > 
-> In such cases, you will need to use either **[TheSkyLib](https://github.com/DevZillion/TheSkyLib)** software or its online version, **[TheSkyLib-Online](https://skylandersnfc.github.io/TheSkyLib-Online/)**.
+> In such cases, you will need to use either **[TheSkyLib](https://github.com/skylandersNFC/TheSkyLib)** software or its online version, **[TheSkyLib-Online](https://skylandersnfc.github.io/TheSkyLib-Online/)**.
 >
 > Instead of just the **UID** of a card, these tools will require a **complete dump of an empty card**.
 >
